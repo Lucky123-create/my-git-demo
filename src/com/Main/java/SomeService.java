@@ -2,5 +2,15 @@ package com.Main.java;
 
 public class SomeService {
 
-	System.out.println("Service is done");
+   String name;
+
+       public int findlength(String name){
+
+   	      return name.length();
+
+	}
+
+
+
+
 }
